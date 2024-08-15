@@ -5,6 +5,16 @@ body {
     padding: 0;
     font-style: italic;
   }
+  #partesuperior {
+           
+    color: white;
+}
+#partesuperior .navbar-brand {
+    color: white;
+}
+  #partesuperior .navbar-nav .nav-link {
+    color: white;
+}
 
   /* Estilo para el header */
   header {
