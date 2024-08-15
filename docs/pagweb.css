@@ -6,14 +6,23 @@ body {
     margin: 0;
     padding: 0;
     font-style: italic;
-    
+  
   }
-
+  #partesuperior {
+           
+    color: white;
+}
+#partesuperior .navbar-brand {
+    color: white;
+}
+  #partesuperior .navbar-nav .nav-link {
+    color: white;
+}
   /* Estilo para el header */
   header {
     background: linear-gradient(45deg, #11998e, #38ef7d); /* Degradado verde */
     padding: 10px;
-    color: white
+    
   }
   a{
     color: #fff;
@@ -22,6 +31,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  
   }
   
  

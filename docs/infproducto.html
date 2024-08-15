@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Producto</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e2f3e2, #c9d6ff);
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(90deg, #28a745, #218838);
+            padding: 10px 20px;
+            color: white;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .header .nav-links {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+        .header .nav-links a {
+            font-size: 1rem;
+        }
+        .product-info {
+            margin-top: 20px;
+        }
+        .product-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .btn-custom {
+            background-color: #28a745; /* Cambia el color según tu paleta */
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #218838;
+        }
+        .container-custom {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">Deco Artesanías</div>
+                <nav class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="carrito.html">Carrito</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container container-custom">
+        <h1 class="text-center">Información del Producto</h1>
+        <div class="row product-info">
+            <div class="col-md-6">
+                <img src="ruta/a/tu/imagen.jpg" alt="Imagen del Producto" class="product-img">
+            </div>
+            <div class="col-md-6">
+                <h2>Nombre del Producto</h2>
+                <p><strong>Descripción:</strong> Aquí va una breve descripción del producto.</p>
+                <p><strong>Precio:</strong> $XX.XX</p>
+                <p><strong>Disponibilidad:</strong> En stock / Agotado</p>
+                <p><strong>Categoría:</strong> Categoría del producto</p>
+                <p><strong>SKU:</strong> Código del producto</p>
+                <a href="carrito.html" class="btn btn-custom">Añadir al Carrito</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
